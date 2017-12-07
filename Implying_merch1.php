@@ -14,21 +14,22 @@
                 <h2 class="navbar-brand" href="#">Merch for everybody!</h2>
             </section>
             <section id="left">
-                <button><a href="Implying.php">Home</a></button>
-                <button><a href="Implying_merch.php">Merch</a></button>
+                <button><a href="Implying1.php">Home</a></button>
+                <button><a href="Implying_merch1.php">Merch</a></button>
                 <button><a hreft="#">Coming Events</a></button>
                 <button><a hreft="#">Blog</a></button>
                 <button><a hreft="#">Features</a></button>
                 <button><a hreft="#">Contact Us</a></button>
             </section>
             <section id="login">
+            <div id="d">
             <?php
                 session_start();
                 if(isset($_SESSION["login"])){
                     echo "<h1> $_SESSION[login]</h1>";
                 }
                 else{
-                    header("Location: http://localhost/Proyecto/Implying.php");
+                    header("Location: http://localhost/Proyecto/Implying_merch.php");
                    
                 }
             
@@ -44,11 +45,11 @@
                 <div class="seccion-1" id="menu" name="Main Menu">
                     <div class="link">
                         <section id="main menu-nav">
-                            <button><a href="Implying.php">Home</a></button>
-                            <button><a href="Implying_street.php">Streetwear</a></button>
-                            <button><a href="Implying_guys.php">Guys</a></button>
-                            <button><a href="Implying_girls.php">Girls</a></button>
-                            <button><a href="Implying_merch.php">Music</a></button>
+                            <button><a href="Implying1.php">Home</a></button>
+                            <button><a href="Implying_street1.php">Streetwear</a></button>
+                            <button><a href="Implying_guys1.php">Guys</a></button>
+                            <button><a href="Implying_girls1.php">Girls</a></button>
+                            <button><a href="Implying_merch1.php">Music</a></button>
                         </section>
                     </div>
                 </div>
@@ -196,12 +197,12 @@
                     <img src="banner.jpg"/>
                </section>
                <section id="down-buttom">
-                    <button><a hreft="#">Home</a></button>
-                    <button><a hreft="#">Merch</a></button>
-                    <button><a hreft="#">Coming Events</a></button>
-                    <button><a hreft="#">Blog</a></button>
-                    <button><a hreft="#">Features</a></button>
-                    <button><a hreft="#">Contact Us</a></button>
+                    <button><a href="Implying1.php">Home</a></button>
+                    <button><a href="Implying_merch1.php">Merch</a></button>
+                    <button ><a href="#">Coming Events</a></button>
+                    <button><a href="#">Blog</a></button>
+                    <button><a href="#">Features</a></button>
+                    <button><a href="#">Contact Us</a></button>
                </section>
                <section class="pay">
                     <img src="Iconos/if_visa_2593666.png"/>

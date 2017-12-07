@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
-        <title>Merch</title>
+        <title>Streetwear</title>
         <link rel="stylesheet" href="css/bootstrap-1.css">
         <link rel="stylesheet" href="css/Estilo_IMLRE_products.css">
     </head>
@@ -14,17 +14,30 @@
                 <h2 class="navbar-brand" href="#">Merch for everybody!</h2>
             </section>
             <section id="left">
-                <button><a href="Implying.php">Home</a></button>
-                <button><a href="Implying_merch.php">Merch</a></button>
-                <button><a href="#">Coming Events</a></button>
+                <button><a href="Implying1.php">Home</a></button>
+                <button><a href="Implying_merch1.php">Merch</a></button>
+                <button ><a href="#">Coming Events</a></button>
                 <button><a href="#">Blog</a></button>
                 <button><a href="#">Features</a></button>
                 <button><a href="#">Contact Us</a></button>
             </section>
             <section id="login">
-                <button><a href="login.php">Login</a></button>
-                <button><a href="registro1.php">Sign In</a></button>
-                <button><h1>Cart</h1></button>
+            <div id="d">
+            <?php
+                session_start();
+                if(isset($_SESSION["login"])){
+                    echo "<h1> $_SESSION[login]</h1>";
+                }
+                else{
+                    header("Location: http://localhost/Proyecto/Implying_street.php");
+                   
+                }
+            
+            
+             ?>
+            </div>
+            <button><h1>Cart</h1></button>
+            <button><a href="logout.php">Log out</a></button>
             </section>   
         </nav>
         <nav id="main-nav">
@@ -32,11 +45,11 @@
                 <div class="seccion-1" id="menu" name="Main Menu">
                     <div class="link">
                         <section id="main menu-nav">
-                            <button><a href="Implying.php">Home</a></button>
-                            <button><a href="Implying_street.php">Streetwear</a></button>
-                            <button><a href="Implying_guys.php">Guys</a></button>
-                            <button><a href="Implying_girls.php">Girls</a></button>
-                            <button><a href="Implying_merch.php">Music</a></button>
+                            <button><a href="Implying1.php">Home</a></button>
+                            <button><a href="Implying_street1.php">Streetwear</a></button>
+                            <button><a href="Implying_guys1.php">Guys</a></button>
+                            <button><a href="Implying_girls1.php">Girls</a></button>
+                            <button><a href="Implying_merch1.php">Music</a></button>
                         </section>
                     </div>
                 </div>
@@ -48,13 +61,13 @@
                     <section class="merch-1">
                         <div class="product-1">
                             <div class="imagen" id="uno">
-                                <img src="Imagenes/amf.jpg" title="American Football - 704 House" id="amfoot">
+                                <img src="Imagenes/spant.jpg" title="Sporty - Pants" id="amfoot">
                             </div>
                             <div class="name">
-                                <a>American Football - 704 House Sweater</a>
+                                <a>Sporty - Pants</a>
                             </div>
                             <div class="precio">
-                                <a>$15.00</a>
+                                <a>$25.00</a>
                             </div>
                             <div class="cart">
                                 <button>Add To Cart</button>
@@ -62,13 +75,13 @@
                         </div>
                         <div class="product-2">
                             <div class="imagen" id="dos">
-                                <img src="Imagenes/descendents.jpg" title="Descendents - Everything Sucks" id="des">
+                                <img src="Imagenes/jwom2.jpg" title="Freezyn - Jacket Woman" id="des">
                             </div>
                             <div class="name">
-                                <a>Descendents - Everything Sucks T-shirt</a>
+                                <a>Freezyn - Jacket Woman</a>
                             </div>
                             <div class="precio">
-                                <a>$10.00</a>
+                                <a>$35.00</a>
                             </div>
                             <div class="cart">
                                 <button>Add To Cart</button>
@@ -76,13 +89,13 @@
                         </div>
                         <div class="product-3">
                             <div class="imagen" id="tres">
-                                <img src="Imagenes/blink.jpg" title="Blink-182 - Everytype" id="bli">
+                                <img src="Imagenes/jeans.jpg" title="Slim Blue - Slim Man" id="bli">
                             </div>
                             <div class="name">
-                                <a>Blink-182 - Print Design T-shirt</a>
+                                <a>Slim Blue - Slim Man</a>
                             </div>
                             <div class="precio">
-                                <a>$10.00</a>
+                                <a>$19.00</a>
                             </div>
                             <div class="cart">
                                 <button>Add To Cart</button>
@@ -90,13 +103,13 @@
                         </div>
                         <div class="product-4">
                             <div class="imagen" id="cuatro">
-                                <img src="Imagenes/neck.jpg" title="Neck Deep - Head T-shirt" id="neck">
+                                <img src="Imagenes/skn.jpg" title="Slim Blue - Skinny Woman" id="neck">
                             </div>
                             <div class="name">
-                                <a>Neck Deep - Head T-shirt</a>
+                                <a>Slim Blue - Skinny Woman</a>
                             </div>
                             <div class="precio">
-                                <a>$10.00</a>
+                                <a>$18.00</a>
                             </div>
                             <div class="cart">
                                 <button>Add To Cart</button>
@@ -104,13 +117,13 @@
                         </div>
                         <div class="product-5">
                             <div class="imagen" id="cinco">
-                                <img src="Imagenes/chon.jpg" title="CHON - Homey T-shirt" id="chon">
+                                <img src="Imagenes/shirt3.jpg" title="Time Box - Shirt Man" id="chon">
                             </div>
                             <div class="name">
-                                <a>CHON - Homey T-shirt</a>
+                                <a>Time Box - Shirt Man</a>
                             </div>
                             <div class="precio">
-                                <a>$10.00</a>
+                                <a>$22.00</a>
                             </div>
                             <div class="cart">
                                 <button>Add To Cart</button>
@@ -118,13 +131,13 @@
                         </div>
                         <div class="product-6">
                             <div class="imagen" id="seis">
-                                <img src="Imagenes/mobo.jpg" title="Modern Baseball - Holy Ghost T-shirt" id="mobo">
+                                <img src="Imagenes/brix.jpg" title="Brix - Hat Man" id="mobo">
                             </div>
                             <div class="name">
-                                <a>Modern Baseball - Holy Ghost T-shirt</a>
+                                <a>Brix - Hat Man</a>
                             </div>
                             <div class="precio">
-                                <a>$11.00</a>
+                                <a>$18.00</a>
                             </div>
                             <div class="cart">
                                 <button>Add To Cart</button>
@@ -132,13 +145,13 @@
                         </div>
                         <div class="product-7">
                             <div class="imagen" id="siete">
-                                <img src="Imagenes/ms.jpg" title="Moose Blood - Car T-shirt" id="jolis">
+                                <img src="Imagenes/run2.jpg" title="The Way - Running Pants Man" id="jolis">
                             </div>
                             <div class="name">
-                                <a>Moose Blood - Car T-shirt</a>
+                                <a>The Way - Running Pants Man</a>
                             </div>
                             <div class="precio">
-                                <a>$9.00</a>
+                                <a>$30.00</a>
                             </div>
                             <div class="cart">
                                 <button>Add To Cart</button>
@@ -146,13 +159,13 @@
                         </div>
                         <div class="product-8">
                             <div class="imagen" id="siete">
-                                <img src="Imagenes/bn.jpg" title="Brand New - SF T-shirt" id="bn">
+                                <img src="Imagenes/quick.jpg" title="Kroogen - Baseball T-shirt" id="bn">
                             </div>
                             <div class="name">
-                                <a>Brand New - Science Fiction T-shirt</a>
+                                <a>Kroogen - Baseball T-shirt</a>
                             </div>
                             <div class="precio">
-                                <a>$9.00</a>
+                                <a>$14.00</a>
                             </div>
                             <div class="cart">
                                 <button>Add To Cart</button>
@@ -184,9 +197,9 @@
                     <img src="banner.jpg"/>
                </section>
                <section id="down-buttom">
-                    <button><a href="Implying.php">Home</a></button>
-                    <button><a href="Implying_merch.html">Merch</a></button>
-                    <button><a href="#">Coming Events</a></button>
+                    <button><a href="Implying1.php">Home</a></button>
+                    <button><a href="Implying_merch1.php">Merch</a></button>
+                    <button ><a href="#">Coming Events</a></button>
                     <button><a href="#">Blog</a></button>
                     <button><a href="#">Features</a></button>
                     <button><a href="#">Contact Us</a></button>

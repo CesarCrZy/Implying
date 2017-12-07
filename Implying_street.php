@@ -16,10 +16,10 @@
             <section id="left">
                 <button><a href="Implying.php">Home</a></button>
                 <button><a href="Implying_merch.php">Merch</a></button>
-                <button ><a hreft="#">Coming Events</a></button>
-                <button><a hreft="#">Blog</a></button>
-                <button><a hreft="#">Features</a></button>
-                <button><a hreft="#">Contact Us</a></button>
+                <button ><a href="#">Coming Events</a></button>
+                <button><a href="#">Blog</a></button>
+                <button><a href="#">Features</a></button>
+                <button><a href="#">Contact Us</a></button>
             </section>
             <section id="login">
                 <button><a href="login.php">Login</a></button>
@@ -184,12 +184,12 @@
                     <img src="banner.jpg"/>
                </section>
                <section id="down-buttom">
-                    <button><a hreft="#">Home</a></button>
-                    <button><a hreft="#">Merch</a></button>
-                    <button><a hreft="#">Coming Events</a></button>
-                    <button><a hreft="#">Blog</a></button>
-                    <button><a hreft="#">Features</a></button>
-                    <button><a hreft="#">Contact Us</a></button>
+                    <button><a href="Implying.php">Home</a></button>
+                    <button><a href="Implying_merch.html">Merch</a></button>
+                    <button><a href="#">Coming Events</a></button>
+                    <button><a href="#">Blog</a></button>
+                    <button><a href="#">Features</a></button>
+                    <button><a href="#">Contact Us</a></button>
                </section>
                <section class="pay">
                     <img src="Iconos/if_visa_2593666.png"/>

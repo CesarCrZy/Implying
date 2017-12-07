@@ -37,7 +37,7 @@
       else{ 
         session_start();
         $_SESSION["login"]=$correo;
-        header("Location: http://localhost/Proyecto/Implying.php");
+        header("Location: http://localhost/Implying/Implying.php");
         die();
           }
   ?>

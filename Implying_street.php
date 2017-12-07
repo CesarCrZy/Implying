@@ -15,7 +15,7 @@
             </section>
             <section id="left">
                 <button><a href="Implying.php">Home</a></button>
-                <button><a href="Implying_merch.html">Merch</a></button>
+                <button><a href="Implying_merch.php">Merch</a></button>
                 <button ><a hreft="#">Coming Events</a></button>
                 <button><a hreft="#">Blog</a></button>
                 <button><a hreft="#">Features</a></button>
@@ -33,10 +33,10 @@
                     <div class="link">
                         <section id="main menu-nav">
                             <button><a href="Implying.php">Home</a></button>
-                            <button><a href="Implying_street.html">Streetwear</a></button>
-                            <button><a href="Implying_guys.html">Guys</a></button>
-                            <button><a href="Implying_girls.html">Girls</a></button>
-                            <button><a href="Implying_merch.html">Music</a></button>
+                            <button><a href="Implying_street.php">Streetwear</a></button>
+                            <button><a href="Implying_guys.php">Guys</a></button>
+                            <button><a href="Implying_girls.php">Girls</a></button>
+                            <button><a href="Implying_merch.php">Music</a></button>
                         </section>
                     </div>
                 </div>

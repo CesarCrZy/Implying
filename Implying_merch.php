@@ -8,10 +8,11 @@
         <link rel="stylesheet" href="css/Estilo_IMLRE_products.css">
     </head>
     <body>
+    <body onload="setInterval('Blink()',500)">
         <nav class="navbar navbar-inverse navbar-dark navbar-fixed-top bg-dark">
             <section id="titulo">
-                <h1 class="navbar-brand" href="#">Implying Mexicans Listen Real Emo</h1>
-                <h2 class="navbar-brand" href="#">Merch for everybody!</h2>
+                <h1><span><b>Implying Mexicans Listen Real Emo</b></span></h1>
+                <h1><blink>Merch for everybody!</blink></h1>
             </section>
             <section id="left">
                 <button><a href="Implying.php">Home</a></button>
@@ -198,5 +199,14 @@
                     <img src="Iconos/if_payment_method_paypal_206675.png"/>
                 </section>
             </div>
+            <script>
+       function Blink()
+        {
+            var ElemsBlink = document.getElementsByTagName('blink');
+            for(var i=0;i<ElemsBlink.length;i++)
+                ElemsBlink[i].style.visibility = ElemsBlink[i].style.visibility
+                =='visible' ?'hidden':'visible';
+                }
+    </script>
     </body>
 </html>

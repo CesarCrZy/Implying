@@ -21,7 +21,7 @@
         </section>
         <section id="left">
             <button><a href="Implying1.php">Home</a></button>
-            <button><a href="Implying_merch.php">Merch</a></button>
+            <button><a href="Implying_merch1.php">Merch</a></button>
             <button><a href="#">Coming Events</a></button>
             <button><a href="#">Features</a></button>
             <button><a href="#">Contact Us</a></button>
@@ -78,7 +78,7 @@
                     <button><a href="Implying_street.php">Streetwear</a></button>
                     <button><a href="Implying_guys.php">Guys</a></button>
                     <button><a href="Implying_girls.php">Girls</a></button>
-                    <button><a href="Implying_merch.php">Music</a></button>
+                    <button><a href="Implying_merch1.php">Music</a></button>
                     </section>
                 </div>
             </div>

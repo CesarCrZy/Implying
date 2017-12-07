@@ -6,6 +6,7 @@
         <title>Merch</title>
         <link rel="stylesheet" href="css/bootstrap-1.css">
         <link rel="stylesheet" href="css/Estilo_IMLRE_products.css">
+        <link rel="shortcut icon" type="image/x-icon" href="Iconos/favicon.ico">
     </head>
     <body>
     <body onload="setInterval('Blink()',500)">

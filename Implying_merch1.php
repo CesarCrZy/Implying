@@ -6,6 +6,7 @@
         <title>Merch</title>
         <link rel="stylesheet" href="css/bootstrap-1.css">
         <link rel="stylesheet" href="css/Estilo_IMLRE_products.css">
+        <link rel="shortcut icon" type="image/x-icon" href="Iconos/favicon.ico">
     </head>
     <body>
     <body onload="setInterval('Blink()',500)">
@@ -17,10 +18,10 @@
             <section id="left">
                 <button><a href="Implying1.php">Home</a></button>
                 <button><a href="Implying_merch1.php">Merch</a></button>
-                <button><a hreft="#">Coming Events</a></button>
-                <button><a hreft="#">Blog</a></button>
-                <button><a hreft="#">Features</a></button>
-                <button><a hreft="#">Contact Us</a></button>
+                <button><a href="#">Coming Events</a></button>
+                <button><a href="#">Blog</a></button>
+                <button><a href="#">Features</a></button>
+                <button><a href="#">Contact Us</a></button>
             </section>
             <section id="login">
             <div id="d">

@@ -14,8 +14,7 @@ if(isset($_POST["registrar"])){
     
 ?>
 <script>
-    var mensaje = confirm("Registro exitoso"); 
-    alert("Seras redireccionado a la pagina principal");
+    alert("Registro exitoso, Seras redireccionado a la pagina principal");
 </script>
 <meta http-equiv="refresh" content=".0001; url=http://localhost/Implying/Implying.php">
 

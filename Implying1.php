@@ -8,8 +8,7 @@
     <title>Implying Mexicans Listen Real Emo</title>
     <link rel="stylesheet" href="css/bootstrap-1.css">
     <link rel="stylesheet" href="css/Estilo_IMLRE.css">
-
-
+    <link rel="shortcut icon" type="image/x-icon" href="Iconos/favicon.ico">
 </head>
 
 <body>
